@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cupcake">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -76,7 +76,7 @@
     <!-- slider part -->
     <main class="md:container md:mx-auto">
       <section class="my-16">
-        <div class="carousel w-full md:h-[550px] lg:h-[550px] bg-orange-300">
+        <div class="carousel w-full md:h-[550px] lg:h-[550px] bg-blue-950">
           <!-- slider 1 -->
           <div id="slide1" class="carousel-item relative w-full">
             <div class="flex flex-col lg:flex-row gap-5 p-4 lg:p-24">
@@ -409,7 +409,7 @@
           <div>
             <img src="images/others/faq.png" alt="asked" srcset="" />
           </div>
-          <div class="mx-7 my-3">
+          <div class="mx-7 my-3 w-full md:w-2/3">
             <div class="collapse collapse-plus bg-base-200 my-4">
               <input type="radio" name="my-accordion-3" checked="checked" />
               <div class="collapse-title text-xl font-medium">
@@ -458,5 +458,31 @@
       </section>
       <!-- end of frequenty asked questions -->
     </main>
+
+    <footer
+      class="footer flex items-center justify-between footer-center p-10 bg-base-200 text-base-content rounded"
+    >
+      <nav class="grid grid-flow-col gap-4 text-gray-500">
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Features</a>
+        <a class="link link-hover">Services</a>
+      </nav>
+      <div class="grid gap-4">
+        <h4 class="text-1xl text-gray-800 font-bold">Get The App</h4>
+        <img
+          src="images/others/android.png"
+          class="w-1/2"
+          alt="android"
+          srcset=""
+        />
+        <img
+          src="images/others/ios.png"
+          class="w-1/2"
+          alt="android"
+          srcset=""
+        />
+      </div>
+    </footer>
   </body>
 </html>
